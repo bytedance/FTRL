@@ -143,7 +143,7 @@ The [code](Code) is licensed under the [Apache License 2.0](LICENSE).
 
 ## Acknowledgement
 
-We employ the [VeRL](https://arxiv.org/abs/2409.19256) framework for training.
+We employ the [VeRL 0.3.1.dev](https://arxiv.org/abs/2409.19256) framework for training.
 
 ## Citation
 
