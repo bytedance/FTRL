@@ -1,13 +1,13 @@
 # FTRL
 ## Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments
 
-> Data for paper [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://www.arxiv.org/abs/xxx)
+> Data for paper [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://arxiv.org/abs/2508.08791)
 
 Junjie Ye
 
 jjye23@m.fudan.edu.cn
 
-xxx, 2025
+Aug. 03, 2025
 
 ## Introduction
 
@@ -20,8 +20,8 @@ Effective tool use is essential for large language models (LLMs) to interact mea
 
 ## What's New
 
-- **[xxx]** Release the data and code for FTRL.
-- **[xxx]** Paper available on [Arxiv](https://www.arxiv.org/abs/xxx).
+- **[2025/08/03]** Release the data and code for FTRL.
+- **[2025/08/03]** Paper available on [Arxiv](https://arxiv.org/abs/2508.08791).
 
 ## Main Results
 
@@ -150,5 +150,13 @@ We employ the [VeRL](https://arxiv.org/abs/2409.19256) framework for training.
 If you find this project useful in your research, please cite:
 
 ```bibtex
-xxx
+@misc{FTRL,
+      title={Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments}, 
+      author={Junjie Ye and Changhao Jiang and Zhengyin Du and Yufei Xu and Xuesong Yao and Zhiheng Xi and Xiaoran Fan and Qi Zhang and Xuanjing Huang and Jiecao Chen},
+      year={2025},
+      eprint={2508.08791},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.08791}, 
+}
 ```
