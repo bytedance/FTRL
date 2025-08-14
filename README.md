@@ -1,7 +1,7 @@
 # FTRL
 ## Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments
 
-> Data for paper [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://arxiv.org/abs/2508.08791)
+> Data and code for paper [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://arxiv.org/abs/2508.08791)
 
 Junjie Ye
 
