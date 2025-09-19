@@ -169,8 +169,13 @@ def chat_close(messages, args, tools=None, one_tool_only=False, base_url=None, a
 
 @func_set_timeout(10)
 def call_function(name, arguments, code, **kwargs):
-    exec(code)
-    predict = eval(name)(**arguments, **kwargs)
+    namespace = {}
+    exec(code, namespace, namespace)
+
+    if name in namespace:
+        predict = namespace[name](**arguments, **kwargs)
+    else:
+        raise NameError(f"name {name} is not defined")
     if type(predict) == dict or type(predict) == list:
         predict = json.dumps(predict, ensure_ascii=False)
     elif type(predict) != str:
