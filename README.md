@@ -1,4 +1,4 @@
-# FTRL
+# [ACL 2026] FTRL
 ## Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments
 
 > Data and code for paper [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://arxiv.org/abs/2508.08791)
@@ -20,6 +20,7 @@ Effective tool use is essential for large language models (LLMs) to interact mea
 
 ## What's New
 
+- **[2026/04/06]** The paper has been accepted by ACL 2026.
 - **[2025/08/03]** Release the data and code for FTRL.
 - **[2025/08/03]** Paper available on [Arxiv](https://arxiv.org/abs/2508.08791).
 
