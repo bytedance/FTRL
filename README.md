@@ -1,7 +1,7 @@
 # [ACL 2026] FTRL
 ## Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments
 
-> Data and code for paper [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://arxiv.org/abs/2508.08791)
+> Data and code for paper [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://aclanthology.org/2026.findings-acl.109/)
 
 Junjie Ye
 
@@ -151,13 +151,32 @@ We employ the [VeRL 0.3.1.dev](https://arxiv.org/abs/2409.19256) framework for t
 If you find this project useful in your research, please cite:
 
 ```bibtex
-@misc{FTRL,
-      title={Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments}, 
-      author={Junjie Ye and Changhao Jiang and Zhengyin Du and Yufei Xu and Xuesong Yao and Zhiheng Xi and Xiaoran Fan and Qi Zhang and Xuanjing Huang and Jiecao Chen},
-      year={2025},
-      eprint={2508.08791},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.08791}, 
+@inproceedings{FTRL,
+  author       = {Junjie Ye and
+                  Changhao Jiang and
+                  Zhengyin Du and
+                  Yufei Xu and
+                  Xuesong Yao and
+                  Zhiheng Xi and
+                  Xiaoran Fan and
+                  Qi Zhang and
+                  Tao Gui and
+                  Xuanjing Huang and
+                  Jiecao Chen},
+  editor       = {Maria Liakata and
+                  Viviane P. Moreira and
+                  Jiajun Zhang and
+                  David Jurgens},
+  title        = {Feedback-Driven Tool-Use Improvements in Large Language Models via
+                  Automated Build Environments},
+  booktitle    = {Findings of the Association for Computational Linguistics, {ACL} 2026,
+                  San Diego, California, United States, July 2-7, 2026},
+  pages        = {2293--2323},
+  publisher    = {Association for Computational Linguistics},
+  year         = {2026},
+  url          = {https://aclanthology.org/2026.findings-acl.109/},
+  timestamp    = {Tue, 07 Jul 2026 07:43:45 +0200},
+  biburl       = {https://dblp.org/rec/conf/acl/YeJDXYXFZGHC26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
